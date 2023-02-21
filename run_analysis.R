@@ -1,3 +1,5 @@
+###############This work is done by Ambu Vijayan as pat of######################
+###############Getting and Cleaning Data Course Project#########################
 
 ##############Downloading the data from link provided using curl################
 
@@ -123,7 +125,7 @@ colnames(Filtered_Merged_Dataset) <- Filtered_Merged_Dataset_Cols
 #####################Aggregating the seconds tidy data##########################
 
 tidydata <- aggregate(. ~subject + activity, Filtered_Merged_Dataset, mean)
-tidydata <- tidySet[order(tidySet$subject, tidySet$activity), ]
+tidydata <- tidydata[order(tidydata$subject, tidydata$activity), ]
 
 ################################################################################
 
