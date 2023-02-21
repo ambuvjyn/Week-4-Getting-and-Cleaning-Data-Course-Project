@@ -130,6 +130,6 @@ tidydata <- tidySet[order(tidySet$subject, tidySet$activity), ]
 
 ######################Exporting tidySet to a text file##########################
 
-write.table(tidySet, "tidydata.txt", row.names = FALSE)
+write.table(tidydata, "tidydata.txt", row.names = FALSE)
 
 ################################################################################
