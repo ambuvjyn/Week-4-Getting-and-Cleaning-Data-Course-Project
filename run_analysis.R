@@ -124,14 +124,14 @@ colnames(Filtered_Merged_Dataset) <- Filtered_Merged_Dataset_Cols
 
 #####################Aggregating the seconds tidy data##########################
 
-tidydata <- aggregate(. ~subject + activity, Filtered_Merged_Dataset, mean)
-tidydata <- tidydata[order(tidydata$subject, tidydata$activity), ]
+tidySet <- aggregate(. ~subject + activity, Filtered_Merged_Dataset, mean)
+tidySet <- tidySet[order(tidySet$subject, tidySet$activity), ]
 
 ################################################################################
 
 
 ######################Exporting tidySet to a text file##########################
 
-write.table(tidydata, "tidydata.txt", row.names = FALSE)
+write.table(tidySet, "tidySet.txt", row.names = FALSE)
 
 ################################################################################
