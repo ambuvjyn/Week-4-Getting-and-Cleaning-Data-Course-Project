@@ -195,3 +195,11 @@ UCI HAR Dataset
 15. **Exporting tidySet to a text file**
 
 `write.table(tidydata, "tidydata.txt", row.names = FALSE)`
+
+## About variables:
+
+-   All Training files : `x_train`, `y_train` and `subject_train`
+
+-    All Activity files : `x_data`, `y_data` and `subject_data`
+
+-   `features` has the correct names for the `x_data` dataset.
