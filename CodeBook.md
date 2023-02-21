@@ -38,7 +38,7 @@ This R performs 15 following steps
 14. **Aggregating the seconds tidy data (V)**
 15. **Exporting tidySet to a text file**
 
-### [**Tree view of UCI HAR Dataset**]{.underline}
+### **Tree view of UCI HAR Dataset**
 
 UCI HAR Dataset
 
@@ -66,7 +66,7 @@ UCI HAR Dataset
 
 │ y_train.txt
 
-# [Detailed R code explanation]{.underline}
+# Detailed R code explanation
 
 1.  **Downloading the data from link provided using curl**
 
