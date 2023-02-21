@@ -1,6 +1,6 @@
 ## **This work is done by Ambu Vijayan as part of Getting and Cleaning Data Course Project**
 
-The Data for this project can be obtained from : [UCI HAR Dataset](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip){.uri}
+The Data for this project can be obtained from : <https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip>
 
 *All the work is carried out in Rstudio*
 
